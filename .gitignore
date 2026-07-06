@@ -1,0 +1,16 @@
+# Mengabaikan file model hasil training (ukuran besar)
+*.joblib
+
+# Mengabaikan folder data berisi dataset mentah jika ukurannya besar
+Data/
+
+# Mengabaikan virtual environment atau cache python jika ada
+__pycache__/
+.pytest_cache/
+.venv/
+env/
+venv/
+
+# Mengabaikan file sistem
+.DS_Store
+Thumbs.db
